@@ -1,0 +1,5 @@
+pip freeze > requirements.txt
+
+if u did git add . and want to resett this 
+use: git reset
+
