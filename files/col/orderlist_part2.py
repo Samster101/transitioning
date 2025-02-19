@@ -40,9 +40,9 @@ def combine_list(list__,data_,sst):
 def stock_sheet_entry(): 
     function_list =  get_cell_position(sheet_=sheet_,worksheet_=worksheet_)
     stock_cell_data = get_numbers(x=sheet_, y=worksheet_2,cell_list=function_list[0])
-    print(combine_list(function_list[2],stock_cell_data,function_list[1]))
+    return (combine_list(function_list[2],stock_cell_data,function_list[1]))
 
-stock_sheet_entry()
+
     
 
 
